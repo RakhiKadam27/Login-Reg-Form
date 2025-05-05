@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(images/contactbg.jpg);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-container {
+    background: #c58181;
+    padding: 5rem;
+    border-radius: 9px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form input {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form button {
+    padding: 0.75rem;
+    border: none;
+    background: #28a745;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .form a {
+    color: #094674;
+    text-decoration: none;
+  }
+  
+  .hidden {
+    display: none;
+  }
